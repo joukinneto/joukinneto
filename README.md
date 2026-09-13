@@ -15,19 +15,28 @@ Building practical software for construction, field operations, business managem
 
 ## 🚀 JKDD TECH
 
-**JKDD TECH** is my technology and product-development ecosystem focused on creating practical, scalable tools for construction, field operations, business workflows and digital services.
+**JKDD TECH** is my technology and product-development ecosystem focused on practical, scalable tools for construction, field operations, business workflows and digital services.
 
-My current work combines **civil-engineering domain knowledge** with software development, product architecture, automation and multi-platform application design.
+My work combines **Civil Engineering domain knowledge** with software development, product architecture, automation and multi-platform application design.
+
+### Portfolio at a glance
+
+| Product family | Purpose |
+|---|---|
+| **JKDD Field** | Modular construction and field-operations platform |
+| **JKDD Connect** | Digital identity, smart contact card and professional networking |
+| **JKDD Leads** | Lead acquisition, qualification and routing |
+| **JKDD Family Finance** | Personal and family financial management |
+
+> Active commercial application source code is private by default. This profile presents the product portfolio without exposing proprietary code.
 
 ---
 
-## 📱 Applications & Platforms
+## 🏗️ JKDD Field — Applications by Type
 
-### 🏗️ JKDD Field
+JKDD Field is organized as a shared platform with specialized operational modules.
 
-A modular platform for construction and field-service operations, designed around a shared core and specialized business modules.
-
-| Area | Products / Modules |
+| Application type | Products / Modules |
 |---|---|
 | **Platform** | JKDD Field Host |
 | **Operations & Workforce** | Field Time · Field Control · Field Planning · Field Docs |
@@ -36,21 +45,11 @@ A modular platform for construction and field-service operations, designed aroun
 | **Assets & Logistics** | Field Fleet · Field Inventory |
 | **Intelligence & Management** | Field Dashboard |
 
-> Active product repositories are private by default. Public profile documentation presents the product portfolio without exposing proprietary source code.
-
-### Independent JKDD TECH Apps
-
-| Product | Focus | Status |
-|---|---|---|
-| **JKDD Connect** | Digital identity, smart contact card and professional networking | 🚧 In development |
-| **JKDD Leads** | Lead acquisition, qualification and routing | 🚧 In development |
-| **JKDD Family Finance** | Personal and family financial management | 🚧 In development |
-
 ---
 
 ## 🌐 Websites & Public Web Presence
 
-| Website | Purpose | Link |
+| Website | Purpose | Access |
 |---|---|---|
 | **JKDD TECH** | Corporate and product portal | [Visit site](https://jkddtech.com) |
 | **JKDD Leads** | Public product website | [Repository](https://github.com/joukinneto/jkdd-leads-site) |
@@ -66,7 +65,7 @@ A modular platform for construction and field-service operations, designed aroun
 | **JKDD Foundation** | Shared architecture, identity, security, permissions, contracts and governance |
 | **JKDD Estimate Engine** | Shared deterministic estimating and pricing engine |
 
-The architecture follows a **Foundation-first** model: shared authentication, company context, permissions, security and common platform services are reused rather than duplicated across modules.
+The ecosystem follows a **Foundation-first** model: shared authentication, company context, permissions, security and common platform services are reused rather than duplicated across applications.
 
 ---
 
@@ -83,55 +82,27 @@ The architecture follows a **Foundation-first** model: shared authentication, co
 
 </div>
 
-**Primary product direction:** mobile-first, responsive and multi-platform experiences for **Web, Android, iPhone and Windows** where applicable.
+**Product direction:** mobile-first, responsive and multi-platform experiences for **Web, Android, iPhone and Windows** where applicable.
 
 ---
 
-## 📊 Current Portfolio Structure
+## 🎯 Engineering & Development Principles
 
-```text
-JKDD TECH
-├── 📱 Apps & Platforms
-│   ├── JKDD Field
-│   │   ├── Operations & Workforce
-│   │   ├── Estimating & Calculation
-│   │   ├── Finance & Commercial
-│   │   ├── Assets & Logistics
-│   │   └── Intelligence & Management
-│   ├── JKDD Connect
-│   ├── JKDD Leads
-│   └── JKDD Family Finance
-├── 🌐 Websites
-│   ├── JKDD TECH
-│   ├── JKDD Leads
-│   ├── JKDD Finish & Remodeling
-│   └── Kener Santana
-├── 🧱 Core & Engines
-│   ├── JKDD Foundation
-│   └── JKDD Estimate Engine
-├── 🛠️ Developer Tooling
-└── ⚫ Legacy / Archived
-```
+- Mobile-first and responsive product design.
+- Multi-platform delivery whenever practical.
+- Shared architecture before duplication.
+- Development → Test → Production separation.
+- Pull Request + CI governance for protected changes.
+- Private-by-default source code for active commercial products.
+- Clear separation between Apps, Websites, Core, Tooling and Legacy.
 
 ---
 
-## 🎯 Development Principles
-
-- **Mobile-first** and responsive product design.
-- **Multi-platform** delivery whenever practical.
-- **Shared architecture before duplication.**
-- **Development → Test → Production** separation.
-- **Pull Request + CI** governance for protected changes.
-- **Private-by-default source code** for active commercial products.
-- Clear separation between **Apps, Websites, Core, Tooling and Legacy**.
-
----
-
-## 👷 Engineering + Technology
+## 👷 Engineering × Technology
 
 My background in **Civil Engineering** informs how I design software for real construction and field workflows: time tracking, estimating, costs, billing, fleet, inventory, planning, documentation, operational control and executive visibility.
 
-The goal is not only to build software that works technically, but software that fits how field teams and construction businesses actually operate.
+The goal is to build software that not only works technically, but also fits how field teams and construction businesses actually operate.
 
 ---
 
