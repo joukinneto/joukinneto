@@ -69,6 +69,14 @@ The ecosystem follows a **Foundation-first** model: shared authentication, compa
 
 ---
 
+## ⚫ Legacy & Historical Reference
+
+**FieldOS** is a retired pilot preserved only as a historical and functional reference. It is not part of the active JKDD Field architecture and is not used for new development or deployment.
+
+The previous `jkdd-legacy-field-calc-web` repository is archived and retained only for history/reference.
+
+---
+
 ## 🛠️ Technology Stack
 
 <div align="center">
