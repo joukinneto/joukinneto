@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lista da Lasanha</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#111827;--muted:#6b7280;--border:#e5e7eb;--green:#138a3d;--blue:#0b57d0;--dark:#101827;--save:#0b7a3d;--save2:#eaf7ef}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}.wrap{max-width:760px;margin:0 auto;padding:18px 16px 40px}h1{margin:4px 0 6px;font-size:28px;line-height:1.15}.sub{margin:0 0 14px;color:var(--muted);font-size:16px;line-height:1.35}.list{background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden}.item{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:14px;border-bottom:1px solid var(--border)}.item:last-child{border-bottom:none}.check{width:25px;height:25px;accent-color:var(--green)}.main{display:flex;flex-direction:column;gap:3px;min-width:0;cursor:pointer}.name{font-size:17px;font-weight:700}.qty{font-size:14px;color:var(--muted)}.item.done .name,.item.done .qty{text-decoration:line-through;color:#8b8b8b}.walmart{text-decoration:none;color:var(--blue);font-weight:700;font-size:13px;border:1px solid #cfe0ff;background:#f5f9ff;padding:8px 10px;border-radius:10px;white-space:nowrap}.progress,.saved{margin:14px 0;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px 14px;font-weight:700}.saved{color:var(--save);display:none}.buttons{display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px}button{width:100%;border:0;border-radius:13px;padding:14px 12px;font-size:16px;font-weight:800;cursor:pointer}.save{background:var(--save);color:#fff}.copy{background:var(--dark);color:#fff}.reset{background:#f7eaea;color:#8a2020}.summary-card{margin-top:14px;background:var(--card);border:1px solid var(--border);border-radius:18px;padding:14px}.summary-card h2{margin:0 0 8px;font-size:19px}textarea{width:100%;min-height:210px;border:1px solid var(--border);border-radius:12px;padding:10px;font-size:14px;line-height:1.4;background:#fff;color:#222;resize:vertical}.note{color:var(--muted);font-size:13px;margin-top:8px;line-height:1.4}@media(max-width:520px){h1{font-size:25px}.item{grid-template-columns:32px 1fr}.walmart{grid-column:2;justify-self:start;margin-top:2px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>🛒 Lasanha brasileira — compras</h1>
+<p class="sub">Marque conforme colocar no carrinho. O progresso é salvo automaticamente neste aparelho.</p>
+<div class="progress" id="progress">Carregando lista...</div><div class="saved" id="savedMsg"></div>
+<div class="list">
+<div class="item" data-id="massa"><input class="check" type="checkbox" id="massa"><label for="massa" class="main"><span class="name">Massa de lasanha Oven Ready</span><span class="qty">1 caixa</span></label><a class="walmart" href="https://www.walmart.com/ip/10534111" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="carne"><input class="check" type="checkbox" id="carne"><label for="carne" class="main"><span class="name">Carne moída 80/20</span><span class="qty">1 lb</span></label><a class="walmart" href="https://www.walmart.com/ip/479601462" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="molho"><input class="check" type="checkbox" id="molho"><label for="molho" class="main"><span class="name">Molho de tomate</span><span class="qty">1 pote 24 oz</span></label><a class="walmart" href="https://www.walmart.com/ip/331883112" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item done" data-id="presunto"><input class="check" type="checkbox" id="presunto" checked><label for="presunto" class="main"><span class="name">Presunto Black Forest</span><span class="qty">1 pacote 16 oz</span></label><a class="walmart" href="https://www.walmart.com/ip/573172852" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item done" data-id="mussarela"><input class="check" type="checkbox" id="mussarela" checked><label for="mussarela" class="main"><span class="name">Muçarela ralada</span><span class="qty">2 lb</span></label><a class="walmart" href="https://www.walmart.com/ip/10452490" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="parmesao"><input class="check" type="checkbox" id="parmesao"><label for="parmesao" class="main"><span class="name">Parmesão ralado</span><span class="qty">1 pote 8 oz</span></label><a class="walmart" href="https://www.walmart.com/ip/10315402" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="leite"><input class="check" type="checkbox" id="leite"><label for="leite" class="main"><span class="name">Leite integral</span><span class="qty">1 unidade</span></label><a class="walmart" href="https://www.walmart.com/ip/10450114" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="manteiga"><input class="check" type="checkbox" id="manteiga"><label for="manteiga" class="main"><span class="name">Manteiga sem sal</span><span class="qty">1 caixa</span></label><a class="walmart" href="https://www.walmart.com/ip/26954459" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="farinha"><input class="check" type="checkbox" id="farinha"><label for="farinha" class="main"><span class="name">Farinha de trigo</span><span class="qty">1 pacote</span></label><a class="walmart" href="https://www.walmart.com/ip/10403017" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="cream"><input class="check" type="checkbox" id="cream"><label for="cream" class="main"><span class="name">Heavy Whipping Cream</span><span class="qty">1 caixinha</span></label><a class="walmart" href="https://www.walmart.com/ip/10450339" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="cebola"><input class="check" type="checkbox" id="cebola"><label for="cebola" class="main"><span class="name">Cebola</span><span class="qty">1 unidade</span></label><a class="walmart" href="https://www.walmart.com/ip/51259212" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="alho"><input class="check" type="checkbox" id="alho"><label for="alho" class="main"><span class="name">Alho</span><span class="qty">1 cabeça</span></label><a class="walmart" href="https://www.walmart.com/ip/44391100" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="oregano"><input class="check" type="checkbox" id="oregano"><label for="oregano" class="main"><span class="name">Orégano</span><span class="qty">1 potinho</span></label><a class="walmart" href="https://www.walmart.com/search?q=oregano" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="pimenta"><input class="check" type="checkbox" id="pimenta"><label for="pimenta" class="main"><span class="name">Pimenta-do-reino</span><span class="qty">1 potinho</span></label><a class="walmart" href="https://www.walmart.com/search?q=black+pepper" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="noz"><input class="check" type="checkbox" id="noz"><label for="noz" class="main"><span class="name">Noz-moscada</span><span class="qty">1 potinho</span></label><a class="walmart" href="https://www.walmart.com/search?q=nutmeg" target="_blank" rel="noopener">Walmart</a></div>
+<div class="item" data-id="sal"><input class="check" type="checkbox" id="sal"><label for="sal" class="main"><span class="name">Sal</span><span class="qty">1 pacote</span></label><a class="walmart" href="https://www.walmart.com/search?q=salt" target="_blank" rel="noopener">Walmart</a></div>
+</div>
+<div class="buttons">
+<button class="save" id="saveBtn" type="button">💾 Salvar progresso</button>
+<button class="copy" id="shareBtn" type="button">📤 Compartilhar lista</button>
+<button class="copy" id="copyBtn" type="button">📋 Copiar resumo para o ChatGPT</button>
+<button class="reset" id="resetBtn" type="button">Limpar marcações</button>
+</div>
+<div class="summary-card"><h2>Resumo atual</h2><textarea id="summary" readonly></textarea><div class="note">O progresso fica salvo automaticamente no navegador deste aparelho. O botão Salvar força a gravação e confirma na tela.</div></div>
+</div>
+<script>
+(function(){
+const KEY="lista_lasanha_online_v1",checks=Array.from(document.querySelectorAll(".check")),summary=document.getElementById("summary"),progress=document.getElementById("progress"),savedMsg=document.getElementById("savedMsg");
+function state(){const s={};checks.forEach(c=>s[c.id]=c.checked);return s}
+function apply(s){checks.forEach(c=>{if(Object.prototype.hasOwnProperty.call(s,c.id))c.checked=!!s[c.id]});update()}
+function restore(){try{const x=JSON.parse(localStorage.getItem(KEY)||"null");if(x&&x.state){apply(x.state);show("✅ Progresso restaurado.");return true}}catch(e){}return false}
+function save(){const p={saved_at:new Date().toISOString(),state:state()};try{localStorage.setItem(KEY,JSON.stringify(p))}catch(e){}return p}
+function show(t){savedMsg.style.display="block";savedMsg.textContent=t;clearTimeout(window._t);window._t=setTimeout(()=>savedMsg.style.display="none",3500)}
+function update(){checks.forEach(c=>c.closest(".item").classList.toggle("done",c.checked));const got=[],left=[];checks.forEach(c=>{const r=c.closest(".item"),line=r.querySelector(".name").textContent+" — "+r.querySelector(".qty").textContent;(c.checked?got:left).push(line)});progress.textContent=got.length+" de "+checks.length+" itens pegos • "+left.length+" faltando";summary.value="LISTA DA LASANHA — ESTADO ATUAL\n\n✅ JÁ PEGUEI:\n"+(got.length?got.map(x=>"- "+x).join("\n"):"- Nenhum")+"\n\n⬜ FALTA PEGAR:\n"+(left.length?left.map(x=>"- "+x).join("\n"):"- Nada. Lista concluída!")}
+checks.forEach(c=>c.addEventListener("change",()=>{save();update()}));
+document.getElementById("saveBtn").addEventListener("click",()=>{save();show("✅ Salvo neste aparelho.");});
+document.getElementById("shareBtn").addEventListener("click",async()=>{const d={title:"Lista da Lasanha Brasileira",text:summary.value,url:location.href};if(navigator.share){try{await navigator.share(d)}catch(e){}}else{try{await navigator.clipboard.writeText(location.href);alert("Link copiado.")}catch(e){}}});
+document.getElementById("copyBtn").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(summary.value);alert("Resumo copiado. Cole no ChatGPT.")}catch(e){summary.focus();summary.select();document.execCommand("copy")}});
+document.getElementById("resetBtn").addEventListener("click",()=>{if(confirm("Limpar todas as marcações?")){checks.forEach(c=>c.checked=false);save();update()}});
+if(!restore())update();
+})();
+</script>
+</body></html>
