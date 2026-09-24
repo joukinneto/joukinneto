@@ -2,9 +2,9 @@
 
 # Joaquim Neto
 
-### Civil Engineer · Founder of JKDD TECH · Software & Digital Product Builder
+### Civil Engineer · Founder of JKDD TECH · Software, AI Automation & Digital Product Builder
 
-Building practical software for construction, field operations, business management and digital products.
+Building practical software, AI-assisted workflows and digital products for construction, field operations, business management and interactive experiences.
 
 [![JKDD TECH](https://img.shields.io/badge/JKDD%20TECH-Official%20Website-111827?style=for-the-badge)](https://jkddtech.com)
 [![GitHub](https://img.shields.io/badge/GitHub-joukinneto-181717?style=for-the-badge&logo=github)](https://github.com/joukinneto)
@@ -13,28 +13,77 @@ Building practical software for construction, field operations, business managem
 
 ---
 
-## 🚀 JKDD TECH
+## 🚀 JKDD TECH — Current Ecosystem
 
-**JKDD TECH** is my technology and product-development ecosystem focused on practical, scalable tools for construction, field operations, business workflows and digital services.
+**JKDD TECH** is my growing technology and product-development ecosystem.
 
-My work combines **Civil Engineering domain knowledge** with software development, product architecture, automation and multi-platform application design.
+The portfolio has evolved from isolated construction tools into a broader architecture composed of:
 
-### Portfolio at a glance
+- a shared **Foundation-first** platform;
+- modular construction and field applications;
+- independent business products;
+- AI-assisted and multi-agent engineering orchestration;
+- public websites and product portals;
+- experimental games and interactive products;
+- governed Development/Test → Production workflows.
 
-| Product family | Purpose |
+My work combines **Civil Engineering domain knowledge** with software architecture, product design, automation, AI-assisted development and multi-platform delivery.
+
+### Repository growth snapshot
+
+| Area | Current direction |
 |---|---|
-| **JKDD Field** | Modular construction and field-operations platform |
-| **JKDD Connect** | Digital identity, smart contact card and professional networking |
-| **JKDD Leads** | Lead acquisition, qualification and routing |
+| **JKDD Field** | Expanding modular construction / field-operations platform |
+| **JKDD Continuous** | Multi-agent engineering orchestration for apps, games and websites |
+| **JKDD Leads** | Lead acquisition, qualification, routing and measurement |
+| **JKDD Connect** | Smart digital identity, QR/NFC sharing and professional contact product |
 | **JKDD Family Finance** | Personal and family financial management |
+| **Kiddy Clash** | Multiplatform children's game under active Development/Test |
+| **JKDD TECH Web** | Corporate portal and public product presence |
+| **Core / Engines** | Shared Foundation architecture and estimating engine |
 
-> Active commercial application source code is private by default. This profile presents the product portfolio without exposing proprietary code.
+> Active commercial source code is private by default. Public repositories expose selected products, websites and experiments without requiring proprietary application code to be public.
 
 ---
 
-## 🏗️ JKDD Field — Applications by Type
+## 🤖 JKDD Continuous — Multi-Agent Engineering
 
-JKDD Field is organized as a shared platform with specialized operational modules.
+**JKDD Continuous** is the central engineering-orchestration initiative for the JKDD TECH ecosystem.
+
+Its operating model coordinates specialized agents, tools, repositories, workflows, memory, testing, documentation and release controls under one governed structure.
+
+### Current orchestration model
+
+```text
+Owner / JKDD TECH
+        ↓
+Master Supervisor
+        ↓
+Specialized Agents
+        ↓
+Repositories / Tools / QA / Documentation
+        ↓
+Consolidated Results
+```
+
+Key principles:
+
+- one central orchestration layer for engineering work;
+- direct agent-to-agent coordination rather than manual message relay;
+- governed integration of external capabilities through adapters and skills;
+- Development/Test automation where authorized;
+- auditable actions and protected secrets;
+- **Production remains separately controlled and requires explicit authorization**.
+
+JKDD Continuous is currently being used as the coordination model for products such as **Kiddy Clash** and new JKDD Field development work.
+
+---
+
+## 🏗️ JKDD Field — Modular Construction Platform
+
+**JKDD Field** is the main construction and field-operations product family.
+
+It is organized around a shared platform architecture with specialized modules instead of duplicated standalone applications.
 
 | Application type | Products / Modules |
 |---|---|
@@ -44,36 +93,107 @@ JKDD Field is organized as a shared platform with specialized operational module
 | **Finance & Commercial** | Field Cost · Field Billing · Field Accounting |
 | **Assets & Logistics** | Field Fleet · Field Inventory |
 | **Intelligence & Management** | Field Dashboard |
+| **Safety & Quality** | Field Safety & Quality |
+
+### Recent expansion
+
+The platform now includes a dedicated **Field Safety & Quality** domain for inspections, incidents, hazards, Toolbox Talks, punch lists, defects, rework, corrective actions, evidence and verification workflows.
+
+Current development follows governed lifecycle rules: architecture and contracts first, then implementation, QA, exact integration and Development/Test verification before any Production promotion.
+
+---
+
+## 🧱 Core Architecture & Shared Engines
+
+| Component | Role |
+|---|---|
+| **JKDD Foundation** | Shared architecture, authentication, identity, permissions, security, localization, contracts and governance |
+| **JKDD Estimate Engine** | Shared deterministic estimating and pricing engine |
+| **JKDD Continuous** | Multi-agent execution and engineering orchestration layer |
+
+The ecosystem follows a **Foundation-first** model:
+
+> Shared capabilities are defined once and reused across products instead of rebuilding authentication, permissions, company context, localization, security and platform contracts in each application.
+
+---
+
+## 🎯 Independent Products
+
+### JKDD Leads
+
+**JKDD Leads** focuses on lead acquisition, qualification, routing and measurement.
+
+The product follows the rule:
+
+```text
+ONE LEAD → ONE CANONICAL RECORD → MULTIPLE PRODUCT VIEWS
+```
+
+Development is governed separately from Production, while shared identity, security, RBAC/RLS and platform services reuse JKDD Foundation contracts.
+
+[View repository](https://github.com/joukinneto/jkdd-leads)
+
+### JKDD Connect
+
+**JKDD Connect** is a smart digital identity and contact product designed around:
+
+- digital profiles;
+- public shareable pages;
+- QR-based sharing;
+- NFC-oriented workflows;
+- authenticated profile management;
+- mobile-first experiences.
+
+Its current application baseline uses **Next.js**, while shared platform concerns remain aligned with JKDD Foundation contracts.
+
+### JKDD Family Finance
+
+**JKDD Family Finance** is an independent product for personal and family financial organization, built under the same governed Development/Test principles used across the JKDD ecosystem.
+
+---
+
+## 🎮 Games & Interactive Products
+
+### Kiddy Clash
+
+**Kiddy Clash — Aventura dos Pequenos Heróis** is a free multiplatform children's game being developed by JKDD TECH.
+
+Current approved direction includes:
+
+- Web / PWA;
+- iOS;
+- Android;
+- Windows;
+- Portuguese and English;
+- original characters;
+- races, adventures and mini games;
+- computer-controlled opponents;
+- online multiplayer architecture.
+
+Current stack:
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Phaser](https://img.shields.io/badge/Phaser-2E2E2E?style=for-the-badge)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+</div>
+
+[View Kiddy Clash](https://github.com/joukinneto/kiddy-clash)
 
 ---
 
 ## 🌐 Websites & Public Web Presence
 
-| Website | Purpose | Access |
+| Website / Project | Purpose | Access |
 |---|---|---|
 | **JKDD TECH** | Corporate and product portal | [Visit site](https://jkddtech.com) |
-| **JKDD Leads** | Public product website | [Repository](https://github.com/joukinneto/jkdd-leads-site) |
-| **JKDD Finish & Remodeling** | Finish carpentry and remodeling business website | Private source |
+| **JKDD TECH Site Repository** | Institutional website and product portal | [Repository](https://github.com/joukinneto/jkdd-tech-site) |
+| **JKDD Leads** | Public product presence and lead platform | [Repository](https://github.com/joukinneto/jkdd-leads) |
+| **JKDD Leads Site** | Product marketing website | [Repository](https://github.com/joukinneto/jkdd-leads-site) |
 | **Kener Santana** | Professional website | [Repository](https://github.com/joukinneto/site-kener-santana) |
-
----
-
-## 🧱 Core, Architecture & Engines
-
-| Component | Role |
-|---|---|
-| **JKDD Foundation** | Shared architecture, identity, security, permissions, contracts and governance |
-| **JKDD Estimate Engine** | Shared deterministic estimating and pricing engine |
-
-The ecosystem follows a **Foundation-first** model: shared authentication, company context, permissions, security and common platform services are reused rather than duplicated across applications.
-
----
-
-## ⚫ Legacy & Historical Reference
-
-**FieldOS** is a retired pilot preserved only as a historical and functional reference. It is not part of the active JKDD Field architecture and is not used for new development or deployment.
-
-The previous `jkdd-legacy-field-calc-web` repository is archived and retained only for history/reference.
 
 ---
 
@@ -83,6 +203,9 @@ The previous `jkdd-legacy-field-calc-web` repository is archived and retained on
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -90,33 +213,75 @@ The previous `jkdd-legacy-field-calc-web` repository is archived and retained on
 
 </div>
 
-**Product direction:** mobile-first, responsive and multi-platform experiences for **Web, Android, iPhone and Windows** where applicable.
+**Product direction:** mobile-first, responsive and multi-platform experiences for **Web, Android, iPhone and Windows** where technically appropriate.
 
 ---
 
-## 🎯 Engineering & Development Principles
+## 🧭 Engineering & Governance Principles
 
-- Mobile-first and responsive product design.
-- Multi-platform delivery whenever practical.
-- Shared architecture before duplication.
-- Development → Test → Production separation.
-- Pull Request + CI governance for protected changes.
-- Private-by-default source code for active commercial products.
-- Clear separation between Apps, Websites, Core, Tooling and Legacy.
+- **Foundation first** — shared architecture before duplicated implementations.
+- **Mobile first** — responsive field and business UX.
+- **Multi-platform when practical** — reuse a shared core across supported targets.
+- **AI-assisted engineering** — agents and tools support implementation, QA and documentation.
+- **Development → Test → Production separation**.
+- **Production protection** — no automatic promotion without explicit authorization.
+- **Pull Request + CI governance** for controlled changes.
+- **Private-by-default source code** for active commercial applications.
+- **Canonical ownership** — each domain has one source of truth.
+- **Auditable automation** — agent and tool actions must remain traceable.
 
 ---
 
-## 👷 Engineering × Technology
+## 📈 Evolution of the Portfolio
 
-My background in **Civil Engineering** informs how I design software for real construction and field workflows: time tracking, estimating, costs, billing, fleet, inventory, planning, documentation, operational control and executive visibility.
+The repository portfolio has grown beyond the original FieldOS / calculator experiments into a structured product ecosystem with:
 
-The goal is to build software that not only works technically, but also fits how field teams and construction businesses actually operate.
+- shared Foundation architecture;
+- multiple JKDD Field operational modules;
+- estimating and financial workflows;
+- safety and quality workflows;
+- lead-management products;
+- digital identity products;
+- family-finance tooling;
+- public sites;
+- a multi-agent engineering office;
+- and a multiplatform game project.
+
+The emphasis is no longer simply on creating individual apps. The current direction is to build a **coherent, governed product ecosystem** in which architecture, agents, reusable services, testing and release controls can scale together.
+
+---
+
+## ⚫ Legacy & Historical Reference
+
+**FieldOS** is a retired pilot preserved only as historical and functional reference. It is not part of the active JKDD Field architecture.
+
+The previous **jkdd-legacy-field-calc-web** repository is also archived and retained only for history/reference.
+
+---
+
+## 👷 Civil Engineering × Technology
+
+My background in **Civil Engineering** directly informs how I design software for real construction and field workflows:
+
+- time tracking;
+- estimating;
+- costs and billing;
+- accounting;
+- fleet and inventory;
+- planning;
+- documentation;
+- safety and quality;
+- operational control;
+- executive visibility.
+
+The objective is to build technology that works not only in code, but in the actual operational context of field teams and construction businesses.
 
 ---
 
 <div align="center">
 
 ### JKDD TECH
-**Technology for practical field and business operations.**
+
+**Engineering practical software, intelligent workflows and scalable digital products.**
 
 </div>
