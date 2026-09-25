@@ -9,6 +9,13 @@ Building practical software, AI-assisted workflows and digital products for cons
 [![JKDD TECH](https://img.shields.io/badge/JKDD%20TECH-Official%20Website-111827?style=for-the-badge)](https://jkddtech.com)
 [![GitHub](https://img.shields.io/badge/GitHub-joukinneto-181717?style=for-the-badge&logo=github)](https://github.com/joukinneto)
 
+<br/>
+
+![Portfolio](https://img.shields.io/badge/Portfolio-33%20Repositories-2563EB?style=flat-square)
+![Active](https://img.shields.io/badge/Active-31%20Repositories-16A34A?style=flat-square)
+![JKDD Field](https://img.shields.io/badge/JKDD%20Field-14%20Core%20Repositories-F59E0B?style=flat-square)
+![Review](https://img.shields.io/badge/Portfolio%20Review-2026--09--24-6B7280?style=flat-square)
+
 </div>
 
 ---
@@ -43,6 +50,48 @@ My work combines **Civil Engineering domain knowledge** with software architectu
 | **Core / Engines** | Shared Foundation architecture and estimating engine |
 
 > Active commercial source code is private by default. Public repositories expose selected products, websites and experiments without requiring proprietary application code to be public.
+
+### 🧭 Ecosystem map
+
+```mermaid
+flowchart TD
+    OWNER["👷 Joaquim Neto / JKDD TECH"]
+    FOUNDATION["🧱 JKDD Foundation\nShared architecture & governance"]
+    CONT["🤖 JKDD Continuous\nMulti-agent orchestration"]
+
+    FIELD["🏗️ JKDD Field\nConstruction platform"]
+    LEADS["🎯 JKDD Leads"]
+    CONNECT["🔗 JKDD Connect"]
+    FINANCE["💰 JKDD Family Finance"]
+    GAMES["🎮 Games / Kiddy Clash"]
+    WEB["🌐 Websites & public presence"]
+
+    OWNER --> FOUNDATION
+    OWNER --> CONT
+    FOUNDATION --> FIELD
+    FOUNDATION --> LEADS
+    FOUNDATION --> CONNECT
+    FOUNDATION --> FINANCE
+    CONT --> FIELD
+    CONT --> LEADS
+    CONT --> CONNECT
+    CONT --> FINANCE
+    CONT --> GAMES
+    CONT --> WEB
+```
+
+### ⚡ Quick access
+
+| Area | Repository |
+|---|---|
+| 🤖 **Agent orchestration** | [jkdd-continuous](https://github.com/joukinneto/jkdd-continuous) |
+| 🧱 **Shared platform foundation** | [jkdd-foundation](https://github.com/joukinneto/jkdd-foundation) |
+| 🏗️ **Field application host** | [jkdd-field-host](https://github.com/joukinneto/jkdd-field-host) |
+| 🦺 **Safety & Quality** | [jkdd-field-safety-quality](https://github.com/joukinneto/jkdd-field-safety-quality) |
+| 🎯 **Lead platform** | [jkdd-leads](https://github.com/joukinneto/jkdd-leads) |
+| 🎮 **Kiddy Clash** | [kiddy-clash](https://github.com/joukinneto/kiddy-clash) |
+| 🌐 **JKDD TECH website** | [jkdd-tech-site](https://github.com/joukinneto/jkdd-tech-site) |
+| 🧠 **Skills registry** | [skills](https://github.com/joukinneto/skills) |
 
 ---
 
@@ -94,6 +143,10 @@ It is organized around a shared platform architecture with specialized modules i
 | **Assets & Logistics** | Field Fleet · Field Inventory |
 | **Intelligence & Management** | Field Dashboard |
 | **Safety & Quality** | Field Safety & Quality |
+
+### Repository footprint
+
+The JKDD Field family currently spans **14 dedicated repositories** across host/platform, workforce, estimating, finance, assets, intelligence, planning and safety/quality domains.
 
 ### Recent expansion
 
